@@ -67,10 +67,10 @@ Please note the default BigCommerce snippets for rendering search results, you s
  ```html
 <div data-findify-attr="findify-search-results" style="min-height: 400px;">
      <div class="findify-component-spinner">
-       <div style="display:none;">
-        %%Panel.SearchPageHeader%%
-        %%Panel.SearchPage%%
-       </div>
      </div>
+</div>
+<div id="findify_results_fallback" style="display: none;">
+    %%Panel.SearchPageHeader%%
+    %%Panel.SearchPage%%
 </div>
 ```
